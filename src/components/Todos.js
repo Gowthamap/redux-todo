@@ -12,7 +12,7 @@ const btn = {
 
 function Todos() {
   return (
-    <div style={{paddingBottom:"4%"}}>
+    <div style={{paddingBottom:"4%", textAlign: "center"}}>
       <h3 style={{marginTop: "2%", marginBottom: "2%"}}>Add Todo</h3>
       <input type="text" style={{ width: "60%", height: "30px" }} />
       <button style={btn}>Submit</button>
